@@ -16,4 +16,5 @@
          run: ls
 
        - name: change directory
+         shell: bash
          run: cd test_tests && make test
