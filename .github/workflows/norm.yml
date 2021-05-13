@@ -1,0 +1,20 @@
+ 
+ name: NormCI
+ 
+ on: push
+ 
+ jobs:
+   libunit:
+     runs-on: macos-latest
+ 
+     steps:
+
+       - name: checkout git repository
+         uses: actions/checkout@v2
+
+       - name: ls
+         run: ls
+
+       - name: change directory
+         shell: bash
+         run: cd test_tests && make test
