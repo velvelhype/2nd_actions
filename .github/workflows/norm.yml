@@ -11,8 +11,8 @@
        - name: checkout git repository
          uses: actions/checkout@v2
       
-       - name: change directory
-         run: cd test_tests
+      #  - name: change directory
+      #    run: cd test_tests
  
       #  - name: Make test
       #    run: make test
