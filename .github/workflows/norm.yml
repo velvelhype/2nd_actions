@@ -1,7 +1,7 @@
  
  name: NormCI
  
- on: [pull_request, workflow_dispatch]
+ on: push
  
  jobs:
    norm:
