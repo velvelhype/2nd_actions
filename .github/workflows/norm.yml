@@ -25,6 +25,9 @@
       
        - name: change directory
          run: cd test_tests
+      
+       - name: ls
+         run: ls
  
        - name: Make test
          run: make test
