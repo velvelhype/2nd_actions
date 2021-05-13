@@ -1,5 +1,5 @@
  
- name: NormCI
+ name: LibunitCI
  
  on: push
  
