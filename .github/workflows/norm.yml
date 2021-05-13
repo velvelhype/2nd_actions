@@ -22,7 +22,10 @@
 
        - name: checkout git repository
          uses: actions/checkout@v2
-      
+
+       - name: ls
+         run: ls
+
        - name: change directory
          run: cd test_tests
       
